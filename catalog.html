@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Сливочное мороженое</title>
+    <link rel="stylesheet" href="styles/style.css">
   </head>
   <body>
     <div class="container">
@@ -14,13 +15,13 @@
           </a>
           <ul class="site-navigation-list">
             <li class="site-navigation-item">
-              <a class="site-navigation-select" href="#">Каталог</a>
+              <a class="site-navigation-link" href="#">Каталог</a>
             </li>
             <li class="site-navigation-item">
-              <a class="site-navigation-select" href="#">Доставка и оплата</a>
+              <a class="site-navigation-link" href="#">Доставка и оплата</a>
             </li>
             <li class="site-navigation-item">
-              <a class="site-navigation-select" href="#">О компании</a>
+              <a class="site-navigation-link" href="#">О компании</a>
             </li>
           </ul>
         </nav>
@@ -28,18 +29,17 @@
         <nav class="user-navigation">
           <ul class="user-navigation-list">
             <li class="user-navigation-item">
-              <a class="user-navigation-select" href="#"><span class="visually-hidden">Поиск</span></a>
+              <a class="user-navigation-link" href="#"><span class="visually-hidden">Поиск</span></a>
             </li>
             <li class="user-navigation-item">
-              <a class="user-navigation-select" href="#">Вход</a>
+              <a class="user-navigation-link" href="#">Вход</a>
             </li>
             <li class="user-navigation-item">
-              <a class="user-navigation-select" href="#">Корзина</a>
+              <a class="user-navigation-link" href="#">Корзина</a>
             </li>
           </ul>
         </nav>
       </header>
-
       <!-- Основной блок -->
       <main class="main">
         <!-- Хлебные крошки -->
@@ -108,31 +108,31 @@
                 <li class="catalog-filter-item">
                   <label class="filler">
                     <input type="checkbox" class="filler-input" name="chocolate" checked>
-                    шоколадные
+                    <span class="filler-span">шоколадные</span>
                   </label>
                 </li>
                 <li class="catalog-filter-item">
                   <label class="filler">
                     <input type="checkbox" class="filler-input" name="sugar" checked>
-                    сахарные посыпки
+                    <span class="filler-span">сахарные посыпки</span>
                   </label>
                 </li>
                 <li class="catalog-filter-item">
                   <label class="filler">
                     <input type="checkbox" class="filler-input" name="fruit">
-                    фрукты
+                    <span class="filler-span">фрукты</span>
                   </label>
                 </li>
                 <li class="catalog-filter-item">
                   <label class="filler">
                     <input type="checkbox" class="filler-input" name="syrop">
-                    сиропы
+                    <span class="filler-span">сиропы</span>
                   </label>
                 </li>
                 <li class="catalog-filter-item">
                   <label class="filler">
                     <input type="checkbox" class="filler-input" name="jam">
-                    джемы
+                    <span class="filler-span">джемы</span>
                   </label>
                 </li>
               </ul>
@@ -322,7 +322,7 @@
           </ul>
         </section>
         <section class="copyright">
-          <p class="about-text">Сделано в <a class="htmlacademy-link" href="https://htmlacademy.ru/">.html academy © 2021</a></p>
+          <a class="htmlacademy-link" href="https://htmlacademy.ru/">Сделано в .html academy © 2021</a>
         </section>
       </footer>
     </div>
